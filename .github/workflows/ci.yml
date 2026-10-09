@@ -1,3 +1,4 @@
+
 name: CI
 
 on:
@@ -26,3 +27,6 @@ jobs:
 
       - name: Exécuter les tests
         run: pytest test_app.py
+
+      - name: Construire l'image Docker
+        run: docker build -t mon-app-devops .
