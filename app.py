@@ -1,5 +1,5 @@
 def get_message():
-    return "Hello DevOps!"
+    return "Hello DevOps version 2!"
 
 
 def get_welcome_message():
